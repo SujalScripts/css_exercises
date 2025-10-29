@@ -40,4 +40,19 @@
     font-family: 'Times New Roman', Helvetica, sans-serif;
 }
 
-img
+.woman.proportional{
+    height: auto;
+    width: 300px;
+
+}
+.man.distorted{
+  height :400px;
+  width: 200px;
+}
+side{
+  display: inline-block;
+  width: 300px;
+  height: auto;
+  margin-right: 20px;
+  vertical-align: middle;
+}
