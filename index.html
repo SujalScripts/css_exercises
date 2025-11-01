@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>style me via external method</div>
+    <!-- <div>style me via external method</div>
     <p>this was styled with internal method</p>
     <style>
         p{
@@ -15,7 +15,7 @@
             text-align: left;
             color: white;
         }
-    </style>
+    </style> -->
     <!-- <div style="color: black;background-color: orange;text-align: left;font-size: medium;">inline method</div>
 
      <p class="odd">Number 1 - I'm a class!</p>
@@ -31,14 +31,25 @@
     <button class="inverted">Click me!</button>
     <button class="fancy">NO, Click me!</button> -->
 
-    <div>
+    <!-- <div>
         <img class="woman proportional" src="images/pexels-katho-mutodo-8434791.jpg" alt="woamn art"  >
         <img class="man distorted " src="images/pexels-andrea-piacquadio-3777931.jpg" alt="unknown person dsitorted">
     </div>
     <div>
         <img class="original woman" src="images/pexels-katho-mutodo-8434791.jpg" alt="woman pic original" class="side">
         <img class="original man " src="images/pexels-andrea-piacquadio-3777931.jpg" alt="unknown person original" class="side">
+    </div> -->
+
+
+    <!-- descedent combinators -->
+  <div class="container">
+      <p class="text">This should be styled.</p>
     </div>
-    
+    <p class="text">This should be unstyled.</p>
+    <p class="text">This should be unstyled.</p>
+    <div class="container">
+      <p class="text">This should be styled.</p>
+      <p class="text">This should be styled.</p>
+    </div>
 </body>
 </html>

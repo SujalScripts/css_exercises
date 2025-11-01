@@ -56,3 +56,9 @@ side{
   margin-right: 20px;
   vertical-align: middle;
 }
+ div p{  /*div .text or .conatainer p */
+  background-color: yellow;
+  color: red;
+  font-size: 20px;
+  align-content: center;
+}
